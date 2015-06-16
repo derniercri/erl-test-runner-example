@@ -1,0 +1,5 @@
+language: erlang
+sudo: required
+install: ./travis/install-dependencies.sh
+otp_release:
+   - 17.1
